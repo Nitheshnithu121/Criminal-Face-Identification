@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package criminalfacedet;
+
+import java.text.DateFormat;
+import java.text.Format;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+/**
+ *
+ * @author suhas
+ */
+public class Util {
+
+    public static String displayToDB(String date) {
+        String dbDate = null;
+        try {
+            DateFormat fmt = new SimpleDateFormat("dd/mm/yyyy");
+            Format dbFormat = new SimpleDateFormat("yyyy-mm-dd");
+            dbDate = dbFormat.format(fmt.parse(date));
+        } catch (ParseException ex) {
+            System.out.println(ex);
+        }
+        return dbDate;
+    }
+}
