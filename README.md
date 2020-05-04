@@ -1,1 +1,5 @@
-# Criminal-Face-Identification
+ABSTRACT
+
+Criminal record generally contains personal information about particular person along with photograph. To identify any criminal we need some identification regarding person, which are given by eyewitnesses. In most cases the quality and resolution of the recorded image-segments is poor and hard to identify a face.  To overcome this sort of problem we are developing software. Identification can be done in many ways like fingerprint, eyes, DNA etc. One of the applications is face identification.  The face is our primary focus of attention in social inter course playing a major role in conveying identity and emotion. Although the ability to infer intelligence or character from facial appearance is suspect, the human ability to recognize faces is remarkable.
+
+The operator first logs into the system by entering username and password. Then depending on the work allotted he has to select the screens from main menu screen. There are mainly three important function which he can do they are adding details, clipping image and finally construction of the face by using the eyewitness. The face that is finally formed is one the who has done the crime.
